@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="css/clock.css">
+<link rel="stylesheet" href="css/greeting.css">
+<link rel="stylesheet" href="css/todo.css">
+<link rel="stylesheet" href="css/weather.css">
+<link rel="stylesheet" href="css/how.css">
+<title>TO DO LIST</title>
+</head>
+<body>
+	<div class="main">
+		<div class="left">
+			<button class="js-how how">?</button>
+			<div class="left-items">
+				<div>
+					<img class="userImage" src="images/user.png">
+					<form class="js-greetingForm form center">
+						<input class="greetingInput center" type="text" placeholder="NAME?">
+					</form>
+					<div class="greetings-set">
+						<h4 class="js-greetings greetings"></h4>
+						<img class="js-pencil pencil" src="images/pencil.png">
+					</div>
+				</div>
+				<div>
+					<form class="js-toDoForm toDoForm center">
+						<input class="js-toDoInput toDoInput center" type="text" placeholder="TO DO?"/>
+						<span class="js-empty empty">You can't leave this empty.</span>
+					</form>
+					<div class="progress-set">
+						<div class="cheerImageProgress center">
+							<img class="js-cheerImage cheerImage" src="images/cheerleader.png">
+							<span class="js-completed completed">0% completed!</span>
+						</div>
+						<div class="toDoProgress center">
+				  			<div class="js-toDoProgressBar toDoProgressBar"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="right">
+			<div>
+				<img class="clockImage" src="images/clock.png" style="vertical-align:middle">
+				<span class="js-clock clock">00:00</span>
+			</div>
+			<h1 class="toDoText">TO DO LIST</h1>
+			<div class="toDoItems">
+				<ul class="js-toDoList toDoList">
+					<li class="js-nothing nothing">Nothing to do</li>
+				</ul>
+			</div>
+			<p><span class="js-weather weather"></span></p>
+		</div>
+	</div>
+	<div class="js-howToUse-container howToUse-container">
+		<button class="js-exit exit">x</button>
+		<button class="js-language language">한국어</button>
+		<div class="howToUse">
+			<h1 class="howToUse-title">HOW TO USE?</h1>
+			<div class="js-howToUse-content-eng howToUse-content showing">
+				<p>
+					[NAME]<br>
+					Write your name.<br>
+					You can change it anytime.
+				</p>
+				<p>
+					[TO-DO]<br>
+					Write down your to-do.<br>
+					Check out your to-dos.<br>
+					Check the checkbox of completed task.<br>
+					Edit and delete your to-do easily.<br>
+				<p>
+					[PROGRESS BAR]<br>
+					You can check the percent of completed(checked) tasks<br>
+				</p>
+				<p>
+					[MORE]<br>
+					Check out time, location, and temperature.<br>
+					Your name and to-dos will be saved.
+				</p>
+			</div>
+			<div class="js-howToUse-content-kor howToUse-content">
+				<p>
+					[이름]<br>
+					이름을 작성하세요.<br>
+					이름은 언제든지 바꿀 수 있습니다.
+				</p>
+				<p>
+					[할 일]<br>
+					할 일을 작성하세요.<br>
+					할 일들을 확인하세요.<br>
+					완료한 작업을 체크하세요.<br>
+					할 일들을 쉽게 지우고 수정하세요.<br>
+				<p>
+					[진행바]<br>
+					완료한 작업의 퍼센트를 확인할 수 있습니다.<br>
+				</p>
+				<p>
+					[기타]<br>
+					시간, 위치, 기온을 확인하세요.<br>
+					이름과 할 일 목록은 저장됩니다.<br>
+				</p>
+			</div>
+		</div>
+	</div>
+	
+	
+	<script src="js/clock.js"></script>
+	<script src="js/greeting.js"></script>
+	<script src="js/todo.js"></script>
+	<script src="js/weather.js"></script>
+	<script src="js/how.js"></script>
+</body>
+</html>
