@@ -18,7 +18,10 @@
 				<div>
 					<img class="userImage" src="images/user.png">
 					<form class="js-greetingForm form center">
-						<input class="greetingInput center" type="text" placeholder="NAME?">
+						<div class="greetings-set">
+							<input class="greetingInput" type="text" placeholder="NAME?">
+							<button class="greetingBtn">submit</button>
+						</div>
 					</form>
 					<div class="greetings-set">
 						<h4 class="js-greetings greetings"></h4>
@@ -27,8 +30,11 @@
 				</div>
 				<div>
 					<form class="js-toDoForm toDoForm center">
-						<input class="js-toDoInput toDoInput center" type="text" placeholder="TO DO?"/>
-						<span class="js-empty empty">You can't leave this empty.</span>
+						<div class="toDo-set">
+							<input class="js-toDoInput toDoInput" type="text" placeholder="TO DO?"/>
+							<button class="toDoBtn">submit</button>
+							<span class="js-empty empty">You can't leave this empty.</span>
+						</div>
 					</form>
 					<div class="progress-set">
 						<div class="cheerImageProgress center">
