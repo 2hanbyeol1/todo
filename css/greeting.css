@@ -33,6 +33,10 @@
     bottom: 4px;
 }
 
+.greetingBtn:hover {
+    background-color: #577fbf;
+}
+
 .greetings{
 	margin: 0 0 20px 0;
 	font-size: 25px;
