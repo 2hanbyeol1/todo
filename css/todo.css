@@ -1,3 +1,32 @@
+.toDo-set{
+	text-align: center;
+}
+
+.toDoInput{
+	font-size: 20px;
+	width: 60%;
+	padding: 7px 10px;
+	border-radius: 10px;
+	min-width: 130px;
+}
+
+.toDoInput::placeholder{
+	text-align: center;
+}
+
+.toDoBtn{
+	border: 0;
+	border-radius: 10px;
+	width: 50px;
+	height: 50px;
+	background-color: #618CD1;
+	padding: 0;
+	color: white;
+	cursor: pointer;
+    position: relative;
+    bottom: 4px;
+}
+
 .toDoText{
 	margin: 0;
 	position: absolute;
@@ -6,30 +35,8 @@
 	font-size: 50px;
 }
 
-.toDoInput{
-	background: white;
-	border: 3px solid white;
-	font-size: 20px;
-	color: #4F6892;
-	width: 60%;
-	padding: 7px 10px;
-	border-radius: 10px;
-	min-width: 130px;
-}
-
-.toDoInput:focus, .editInput:focus{
-	outline: none;
-}
-
-.toDoInput::placeholder{
-	text-align: center;
-}
-
 .editInput{
-	background: white;
-	border: 3px solid white;
 	font-size: 35px;
-	color: #4F6892;
 	width: 70%;
 	padding-left: 44px;
 	position: relative;
