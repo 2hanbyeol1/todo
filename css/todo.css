@@ -60,22 +60,6 @@
 	margin-right: 110px;
 }
 
-::-webkit-scrollbar{
-	width: 5px;
-}
-
-::-webkit-scrollbar-thumb{
-	width: 5px;
-	border-radius: 10px;
-	background-color: #213c67;
-}
-
-::-webkit-scrollbar-track{
-	width: 5px;
-	border-radius: 10px;
-	background-color: white;
-}
-
 @keyframes fadeIn{
 	from{
 		opacity: 0;
