@@ -9,6 +9,22 @@ body, li, input{
 	color: white;
 }
 
+button:focus,
+button:active{
+	outline: none;
+}
+
+input{
+	background: white;
+	border: 3px solid white;
+	color: #4F6892;
+}
+
+input:focus{
+	outline: none;
+	background-color: #e3edfc;
+}
+
 .left{
 	width: 30%;
 	height: 100vh;
@@ -39,6 +55,10 @@ body, li, input{
 	display: block;
 	margin: auto;
 	margin-bottom: 20px;
+}
+
+.center-items{
+	text-align: center;
 }
 
 .center{
