@@ -1,4 +1,5 @@
-.how{
+.how,
+.exit{
 	position: absolute;
 	top: 12px;
 	left: 10px;
@@ -57,20 +58,6 @@
 
 .showing{
 	display: block;
-}
-
-.exit{
-	position: absolute;
-	top: 12px;
-	left: 10px;
-	border: 3px solid white;
-	width: 32px;
-	height: 32px;
-	background-color: white;
-	border-radius: 50px;
-	color: #618CD1;
-	font-weight: bold;
-	cursor: pointer;
 }
 
 p{
