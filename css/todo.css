@@ -76,10 +76,20 @@
 	background-color: white;
 }
 
+@keyframes fadeIn{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+
 .toDoList li{
 	font-size: 35px;
 	margin-bottom: 20px;
 	height: 50px;
+	animation: fadeIn .5s linear;
 }
 
 .todoCheck{
@@ -159,12 +169,6 @@
 	text-align: center;
 	color: red;
 	font-size: 16px;
-}
-
-.toDoList div{
-	width: 85%;
-	position: relative;
-    bottom: 6px;
 }
 
 .nothing{
