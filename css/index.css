@@ -25,6 +25,22 @@ input:focus{
 	background-color: #e3edfc;
 }
 
+::-webkit-scrollbar{
+	width: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+	width: 5px;
+	border-radius: 10px;
+	background-color: #213c67;
+}
+
+::-webkit-scrollbar-track{
+	width: 5px;
+	border-radius: 10px;
+	background-color: white;
+}
+
 .left{
 	width: 30%;
 	height: 100vh;
